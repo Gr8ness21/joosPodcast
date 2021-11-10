@@ -22,19 +22,19 @@ The "Joos" podcast site is my first attempt to create a multi-page website. The 
 
 
 ## Features
-Users can read interactive descriptions of podcast hosts
-Users can get insight into content provided by podcast creators
-Users can listen to podcast episodes
-Users can purchase games of interest advertised by hosts
-Users can see up to date news on all things gaming
-Users will be able to access shop items and purchase at later  date
-Users can view hosts highlighted clips
-Users can see targeted ad content placed by hosts
-Users can view live gaming stream from twitch
+* Users can read interactive descriptions of podcast hosts
+* Users can get insight into content provided by podcast creators
+* Users can listen to podcast episodes
+* Users can purchase games of interest advertised by hosts
+* Users can see up to date news on all things gaming
+* Users will be able to access shop items and purchase at later  date
+* Users can view hosts highlighted clips
+* Users can see targeted ad content placed by hosts
+* Users can view live gaming stream from twitch
 
 ## Whiteboard Images
 *Original Whiteboard sketch
-<img src=".images/20190307_164552.jpg" alt="Original White Board Drawing"/>
+<img src="./images/whiteboard.jpg" alt="Original Sketch"/>
 
 ## Trello Planning
 * All planning in notebooks
@@ -56,3 +56,7 @@ Users can view live gaming stream from twitch
     
 ## Works Cited:
 * N/A
+
+## About The Author
+## <a name="author"></a>About the Author
+I build applications and mini projects tied to my various interests. I look for creative solutions to real world problems and think of technical ways to address them. While no application is ever perfect I find joy in the process and all my final products!
