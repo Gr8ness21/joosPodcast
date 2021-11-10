@@ -57,6 +57,6 @@ The "Joos" podcast site is my first attempt to create a multi-page website. The 
 ## Works Cited:
 * N/A
 
-## About The Author
-## <a name="author"></a>About the Author
+
+## <a name="author"></a>About The Author
 I build applications and mini projects tied to my various interests. I look for creative solutions to real world problems and think of technical ways to address them. While no application is ever perfect I find joy in the process and all my final products!
