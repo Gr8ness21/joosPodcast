@@ -1,0 +1,640 @@
+/* Color Scheme */
+/* red - #df0024*/
+/* yellow - #f3c300*/
+/* blue - #2e6db4*/
+/* green - #00ac9f*/
+
+@font-face{
+    font-family: fun;
+    src: url(/fonts//Funbold.ttf);
+}
+@font-face{
+    font-family: gamer;
+    src: url(/fonts//Games.ttf);
+}
+
+html, body{
+    /* border: solid 12px;
+    border-top: 20px #df0024;
+    border-left: 20px #2e6db4;
+    border-right: 20px #f3c300;
+    border-bottom: 20px #00ac9f; */
+    padding: 0;
+    margin: 0;
+}
+#logo{
+    height: 35vh;
+    background: url("/images//controllerPSGif.gif");
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+}
+#logo2{
+    height: 35vh;
+    background: url("/images/podcastGif2.gif");
+    background-size: contain;
+    /* margin-top: -250px; */
+    /* background-repeat: no-repeat; */
+}
+#logo3{
+    height: 35vh;
+    background: url("/images/nintendoGif2.gif");
+    background-size: contain;
+    /* margin-top: -250px; */
+    /* background-repeat: no-repeat; */
+}
+#logo5{
+    height: 35vh;
+    background: url("/images/takeMyMoneyGif.gif");
+    background-size: contain;
+    /* margin-top: -250px; */
+    /* background-repeat: no-repeat; */
+}
+#logo1{
+  height: 200px;
+  margin-top: 80px;
+  background: url("/images/podcastGif3.gif") center;
+  background-size: contain;
+}
+
+
+ul {
+    display:block;
+    margin: 0;
+    padding: 0;
+    background-color: #2e6db4;
+    width: 100%;
+  }
+
+  #nav{
+    font-family: gamer;
+    font-size: 35px;
+    display: flex;
+    justify-content: space-between;
+    top: 95vh;
+    /* width: 83.35%; */
+    width: 96.2%;
+    position: fixed;
+    z-index: 1;
+}
+
+li{
+
+    color: #2e6db4;
+    list-style-type: none;
+    text-align: center;
+    float: left;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+}
+li a{
+    display: block;
+    color: #df0024;
+    padding : 10px 15px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #f3c300;
+    color: #00ac9f;
+    transition: .7s;
+    box-shadow: 5px 5px 20px black;
+  }
+
+h1{
+    font-family: fun;
+    color: #f3c300;
+    font-size: 200px;
+    text-align: center;
+}
+h2{
+  font-family: fun;
+  font-size: 100px;
+  color: black;
+  text-align: center;
+  background: #f3c300;
+  /* opacity: .7; */
+}
+h3{
+  font-family: gamer;
+  color: #2e6db4;
+  font-size: 50px;
+  text-align: center;
+}
+h4{
+  font-family: fun;
+  font-size: 80px;
+  color: #df0024;
+  text-align: center;
+  background: black;
+  margin-top: -85px;
+  opacity: .7;
+}
+h5{
+  font-family: fun;
+  font-size: 80px;
+  color: #2e6db4;
+  text-align: center;
+  background: white;
+  margin-top: -85px;
+  opacity: .7;
+}
+h6{
+  font-family: fun;
+  font-size: 40px;
+  color: #2e6db4;
+  text-align: center;
+  background: white;
+  opacity: .8;
+  margin-top: -85px;
+}
+
+/* Home Page Styling */
+#homePage{
+    height: 100vh;
+    width: 100vw;
+    background: url("/images/pressStartGif.gif") black center;
+    background-repeat: no-repeat;
+}
+#homeNav{
+    font-family: gamer;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    background: black;
+    position: relative;
+    top: 95vh;
+}
+/* Hover Box */
+.homeContainer{
+  border: none;
+  padding: 150px;
+  margin-left: 250px;
+  margin-bottom: -900px;
+  height: 600px;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  z-index: -1;
+}
+.boxes{
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+.first{
+  background: url(/images/logoBW.jpg);
+  background-size: cover;
+  animation: leftDiag 10s;
+}
+/* .second{
+  background: url(/images/podcastGif.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: rightDiag 4s infinite;
+}
+.third{
+  background: url(/images/podcastGif.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: leftDiag2 4s infinite;
+
+} */
+.fourth{
+  background: url(/images/logoBW.jpg);
+  background-size: cover;
+  animation: rightDiag2 10s;
+}
+
+
+/* Homepage ANIMATION */
+/* @keyframes rightDiag{
+  0%{
+      transform: rotate(0deg) translate(0px,0px);
+  }
+  50%{
+      transform: rotate(360deg) translate(40px,0px)
+  }
+  100%{
+      transform: rotate(0deg) translate(0px,0px);
+  }
+} */
+@keyframes rightDiag2{
+  0%{
+      transform: rotate(0deg) translate(-600px,0px);
+  }
+  25%{
+      transform: rotate(-360deg) translate(0px, 0px);
+  }
+  50%{
+      transform: rotate(-360deg) translate(-600px,0px);
+  }
+  60%{
+     transform: rotate(-180deg) translate(0px, 0px)
+  }
+  70%{
+    transform: rotate(-360deg) translate(0px, 0px)
+  }
+  80%{
+    transform: rotate(-180deg) translate(0px, 0px)
+  }
+  90%{
+    transform: rotate(-360deg) translate(0px, 0px)
+  }
+  100%{
+    transform: rotate(0deg) translate(0px, 0px)
+  }
+
+}
+@keyframes leftDiag{
+  0%{
+    transform: rotate(0deg) translate(600px,0px);
+}
+25%{
+    transform: rotate(360deg) translate(0px, 0px);
+}
+50%{
+    transform: rotate(360deg) translate(600px,0px);
+}
+60%{
+   transform: rotate(180deg) translate(0px, 0px)
+}
+70%{
+  transform: rotate(360deg) translate(0px, 0px)
+}
+80%{
+  transform: rotate(180deg) translate(0px, 0px)
+}
+90%{
+  transform: rotate(360deg) translate(0px, 0px)
+}
+100%{
+  transform: rotate(0deg) translate(0px, 0px)
+}
+}
+/* @keyframes leftDiag2{
+  0%{
+      transform: rotate(0deg) translate(0px,0px);
+  }
+  50%{
+      transform: rotate(360deg) translate(-40px,0px)
+  }
+  100%{
+      transform: rotate(0deg) translate(0px, 0px);
+  }
+} */
+
+
+/* Grid Styling */
+.container{
+  
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-areas: "sidel  content content content sideR"   
+                      "sidel content content content sideR"
+                      "sidel content content content sideR"
+                      "sidel content content content sideR"
+                      "sidel content content content sideR"
+                      "sidel content content content sideR";
+}
+.sideLeft{
+  border: none;
+  grid-area: sidel;
+  background: black;
+}
+.sideRight{
+  border: none;
+  grid-area: sideR;
+  background: black;
+}
+
+.content{
+  grid-area:content;
+  margin-top: -7.5%;
+}
+
+
+/* Page 1 Styling */
+#parainnerP1{
+  padding: 300px;
+  color: white;
+  border: none;
+}
+  #para{
+  background: url("/images/logoBW.jpg") fixed 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  }
+  #para2{
+    background: url("/images/nintendoSmashGif.gif") fixed;
+    /* background: url("/images/fireFistGif.gif") fixed; */
+    background-size: cover;
+    border: none;
+  }
+  #para3{
+    background: url("/images/streetfighterFistbumpGif.gif") fixed;
+    background-size: cover;
+    border: none;
+  }
+.joos{
+  height: 400px;
+  width: 100%;
+  background: url("/images/JoosGif1.gif") fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/*Interactive Host Boxes*/
+#containerHost{
+  display: flex;
+  flex-direction: column;
+}
+.Host{
+  height: 900px;
+  width: 115%;
+  margin-top: 100px;
+  margin-left: -100px;
+  box-shadow: 5px 5px 25px;
+  border-radius: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#m2{
+  height: 725px;
+  Width: 500px;
+  border: solid 12px #f3c300;
+  display: none;
+  background: url("/images/streetfighterRyuGif2.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 40px;
+}
+#f2{
+  height: 725px;
+  Width: 500px;
+  border: solid 12px #df0024;
+  display: none;
+  background: url("/images/luigiGif.gif");
+  background-size: cover;
+  border-radius: 40px;
+}
+#j2{
+  height: 725px;
+  Width: 500px;
+  border: solid 12px #2e6db4;
+  display: none;
+  background: url("/images/megamanSmashBrosGif.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 40px;
+}
+
+#mike{
+  background: url("/images/Mike.png");
+  background-color: #df0024;
+  background-repeat: no-repeat;
+}
+#frank{
+  background: url("/images/Frank.png");
+  background-color: #f3c300;
+  background-repeat: no-repeat;
+}
+#jacoby{
+  background: url("/images/Jacoby.png");
+  background-color: #2e6db4;
+  background-repeat: no-repeat;
+}
+#mikeContainer{
+  display:flex;
+}
+#frankContainer{
+  display:flex;
+}
+#jacobyContainer{
+  display:flex;
+}
+
+/* Page 2 Styling */
+#parainnerP2{
+    padding: 0vw;
+    margin-right: -10px;
+    margin-left: 10px;
+    margin-top: 150px;
+    margin-bottom: -150px;
+    border: none;
+    /* display: flex; */
+    height: 900px;
+  }
+  #p2para{
+    background: url("/images/sbGif.gif") fixed;
+    background-size: cover;
+    border: none;
+    display: flex;
+    align-items: center;
+  }
+  #p2para2{
+    background: url("#") fixed;
+    background-size: cover;
+    border: none;
+  }
+  #p2para3{
+    background: url("#") fixed;
+    background-size: cover;
+    border: none;
+  }
+  /* .episodes{
+  margin-left: 70px;
+  margin-right:70px;
+  } */
+
+/* Page 3 Styling */
+#parainnerP3{
+    padding: 400px;
+    color: white;
+    border: none;
+  }
+  #p3para{
+    background: url("/images/yoshiCraftedWorldPoster.jpg") fixed;
+    background-size: cover;
+    border: none;
+  }
+  #p3para2{
+    background: url("/images/mk11Poster.jpg") fixed;
+    background-size: cover;
+    border: none;
+  }
+  #p3para3{
+    background: url("/images/theDivision2Poster.jpg") fixed;
+    background-size: cover;
+    border: none;
+  }
+
+/* Page 4 Styling */
+#parainnerP4{
+    padding: 400px;
+    color: white;
+    border: none;
+  }
+  #p4para{
+    background: url("/images/streetfighterRyuGif.gif") fixed;
+    background-size: cover;
+    border: none;
+  }
+  #p4para2{
+    background: url("/images/masterChiefGif.gif") fixed;
+    background-size: cover;
+    border: none;
+  }
+  #p4para3{
+    background: url("/images/nintendoSmashGif2.gif") fixed;
+    background-size: cover;
+    border: none;
+  }
+
+/* Page 5 Styling */
+#parainnerP5{
+    padding: 400px;
+    color: white;
+    border: none;
+  }
+  #p5para{
+    background: url("/images/moneyGif.gif") fixed;
+    background-size: cover;
+    border: none;
+  }
+  #p5para2{
+    background: url("/images/raidenFatalityGif.gif") fixed;
+    background-size: cover;
+    border: none;
+  }
+  #p5para3{
+    background: url("/images/scorpionFatalityGif.gif") fixed;
+    background-size: cover;
+    border: none;
+  }
+  .modal{
+    width: 96.2%;
+    height: 100%;
+    background-color: rgba(223, 0, 36, 0.7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: fun;
+    display: none;
+  }
+  .modal-content{
+    width: 600px;
+    height: 700px;
+    background-color: black;
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+  }
+  input{
+    width: 50%;
+    display: block;
+    margin: 20px auto;
+  }
+  .close{
+    position: absolute;
+    top: 0;
+    right: 14px;
+    transform: rotate(45deg);
+    cursor: pointer;
+  }
+  .button{
+    background-color: rgba(223, 0, 36);
+    cursor: pointer;
+    border: none;
+    color: #f3c300;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+  }
+  #button{
+    float: center;
+    text-align: center;
+    margin-left: 400px;
+    margin-bottom: 0px;
+  }
+  .gsimg{
+    background: url("/images/gslogo2.png");
+    height: 150px;
+    width: 100%;
+  }
+/* Page 6 Styling */
+#parainnerP6{
+    padding: 400px;
+    color: white;
+    border: none;
+  }
+  #p6para{
+    background: url("/images/nintendoWallpaper.jpg") fixed;
+    background-size: cover;
+    border: none;
+  }
+  #p6para2{
+    background: url("/images/playstationWallpaper.jpg") fixed;
+    background-size: cover;
+    border: none;
+  }
+
+
+/*Automatic Slideshow*/
+@keyframes slider {
+  0%{
+    left: 0;
+  }
+  20%{
+    left: 0;
+  }
+  25%{
+    left: -100%;
+  }
+  45%{
+    left: -100%;
+  }
+  50%{
+    left: -200%;
+  }
+  70%{
+    left: -200%;
+  }
+  75%{
+    left: -200%;
+  }
+  95%{
+    left: -300%;
+  }
+  100%{
+    left: -400%;
+  }
+}
+
+#sliderp5{
+  overflow: hdden;
+}
+#sliderp5 figure img{
+  width: 20%;
+  float: left;
+}
+#sliderp5 figure{
+  position: relative;
+  width: 500%;
+  height: 600px;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+}
+
+a{
+  text-decoration: none;
+  color: #f3c300;
+}
