@@ -48,7 +48,7 @@ The "Joos" podcast site is my first attempt to create a multi-page website. The 
 * Users can change the theme.
 
 ## <a name="deployment"></a>Deployed Link
-[Netlify](https://thejoospod.netlify.app)
+[Netlify](https://thejoospod.netlify.app/)
 
 * You can view the repository:
 [Github.com](https://github.com/Gr8ness21/joosPodcast)
