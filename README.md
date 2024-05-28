@@ -4,7 +4,9 @@
 <img src="./images/homePage.png" alt="Home Page Welcome Screen"/>
 
 ## Description
-The "Joos" podcast site is my first attempt to create a multi-page website. The hosts, segments, and content of this site are all original ideas. The goal was to show createive ways to display content while making a webpages that are interactive and engaging.
+The "Joos" podcast site is my first attempt to create a multi-page website. The hosts, segments, and content of this site are all original ideas. The goal was to show createive ways to display content while making webpages that are interactive and engaging.
+
+This site is a UI/UX playspace after having just learned jquery, keyframe animations javascript events, and parallax styling.
 
 ## Table of Contents
 * [Technologies Used](#technologiesused)
@@ -19,6 +21,11 @@ The "Joos" podcast site is my first attempt to create a multi-page website. The 
 * HTML5
 * CSS3
 * jQuery
+* Grid
+* Flexbox
+* Custom Font - Dafont
+* Twitch
+* Youtube
 
 
 ## Features
@@ -40,7 +47,9 @@ The "Joos" podcast site is my first attempt to create a multi-page website. The 
 * All planning in notebooks
 
 ## <a name="design"></a>Design
-* Design elements implemented using HTML5 and CSS3. 
+* Design elements implemented using HTML5 and CSS3.
+* Parallax styling gives the illusion of a moving background.
+* Animation's triggered on js events (Hover, Click, etc.)
 
 
 ## <a name="nextsteps"></a>Project Next Steps
